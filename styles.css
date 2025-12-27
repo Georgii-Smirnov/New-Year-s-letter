@@ -577,6 +577,7 @@
 @media (max-width: 768px) {
     .main {
         padding: 8px;
+        padding-bottom: 20px;
         min-height: 100vh;
         align-items: flex-start;
         padding-top: 10px;
@@ -663,6 +664,7 @@
 @media (max-width: 480px) {
     .main {
         padding: 10px;
+        padding-bottom: 30px;
     }
     
     .letter__paper {
@@ -760,6 +762,7 @@
 @media (max-width: 360px) {
     .main {
         padding: 8px;
+        padding-bottom: 30px;
     }
     
     .letter__paper {
