@@ -407,7 +407,6 @@
         inset 0 1px 0 rgba(255, 255, 255, 0.8);
     border: 2px solid #dc2626;
     width: 100%;
-    max-width: 900px;
     box-sizing: border-box;
     backdrop-filter: blur(10px);
     margin-top: 20px;
@@ -675,6 +674,14 @@
         font-size: 22px;
     }
     
+    .letter__garland-bulb {
+        animation: none !important;
+    }
+    
+    .letter__garland-bulb::after {
+        animation: none !important;
+    }
+    
     .letter__image {
         width: calc(100% + 36px);
         margin: 20px -18px;
@@ -764,6 +771,14 @@
         font-size: 20px;
     }
     
+    .letter__garland-bulb {
+        animation: none !important;
+    }
+    
+    .letter__garland-bulb::after {
+        animation: none !important;
+    }
+    
     .letter__image {
         width: calc(100% + 24px);
         margin: 20px -12px;
@@ -782,7 +797,6 @@
     
     .player {
         padding: 10px 12px;
-        max-width: 95%;
     }
     
     .player__title {
